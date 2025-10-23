@@ -1,0 +1,5 @@
+XPath-СЕЛЕКТОРЫ ИСПОЛЬЗОВАННЫЕ ДЛЯ ИЗВЛЕЧЕНИЯ ДАННЫХ:
+
+//a[text()='life']/ancestor::div[contains(@class, 'quote')] - поиск цитат с тегом 'life'
+.//small[@class='author']/text() - извлечение автора
+.//span[@class='text']/text() - извлечение цитаты

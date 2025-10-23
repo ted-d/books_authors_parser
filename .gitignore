@@ -1,0 +1,16 @@
+# ТОЛЬКО служебные файлы, НЕ результаты
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ВСЕ текстовые результаты ОСТАВЛЯЕМ!
+# НЕ добавлять: *.txt, books_data.txt и т.д.

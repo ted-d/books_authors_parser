@@ -1,0 +1,14 @@
+СЕЛЕКТОРЫ ДЛЯ ПАРСИНГА BOOKS.TOSCRAPE.COM
+
+CSS СЕЛЕКТОРЫ:
+- Название книги: article.product_pod h3 a (атрибут title)
+- Цена книги: article.product_pod p.price_color
+- Ссылка на книгу: article.product_pod h3 a (атрибут href)
+
+XPath СЕЛЕКТОРЫ:
+- Название: //article[@class='product_pod']//h3/a/@title
+- Цена: //article[@class='product_pod']//p[@class='price_color']/text()
+- Ссылка: //article[@class='product_pod']//h3/a/@href
+
+ПРИМЕЧАНИЕ:
+Все селекторы проверены и работают на сайте books.toscrape.com
